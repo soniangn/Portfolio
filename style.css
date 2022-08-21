@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #cae4db;
-  --secondary-color: #dcae1d;
-  --tertiary-color: #00303f;
+  --primary-color: #f1f0ea;
+  --secondary-color: #195226;
+  --tertiary-color: #d79823;
   --heading-font: "playfair display", serif;
   --basic-font: "Poppins", "sans serif";
 }
@@ -43,5 +43,5 @@ h2 {
 }
 
 .button:hover {
-  color: var(--secondary-color);
+  color: #752413;
 }
