@@ -45,3 +45,52 @@ h2 {
 .button:hover {
   color: #752413;
 }
+
+.project-description {
+  padding: 90px 60px;
+}
+
+.projects h2 {
+  font-size: 52px;
+  font-family: var(--heading-font);
+}
+
+.app-paragraphs {
+  font-size: 16px;
+  line-height: 30px;
+  color: #272142;
+  opacity: 70%;
+}
+
+.app-button {
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.projects img {
+  vertical-align: center;
+}
+
+@media (max-width: 650px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 54px;
+    line-height: 1;
+  }
+
+  .presentation {
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .presentation h2 {
+    font-size: 24px;
+  }
+}
