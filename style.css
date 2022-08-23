@@ -6,6 +6,10 @@
   --basic-font: "Poppins", "sans serif";
 }
 
+body {
+  background-color: var(--secondary-color);
+}
+
 .presentation {
   text-align: center;
   background-color: var(--primary-color);
