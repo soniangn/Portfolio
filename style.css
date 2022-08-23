@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #f1f0ea;
-  --secondary-color: #195226;
-  --tertiary-color: #d79823;
+  --primary-color: #fff8ed;
+  --secondary-color: #2273f3;
+  --tertiary-color: #393636;
   --heading-font: "playfair display", serif;
   --basic-font: "Poppins", "sans serif";
 }
@@ -124,4 +124,40 @@ h2 {
     text-align: center;
     padding: 0;
   }
+}
+
+nav {
+  padding: 15px 0;
+  background-color: var(--primary-color);
+}
+
+nav ul {
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 42px;
+  padding: 40px;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+li a:hover {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+li a:active {
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 250px;
+  padding-left: 30px;
 }
