@@ -6,8 +6,8 @@
   --basic-font: "Poppins", "sans serif";
 }
 
-body {
-  background-color: var(--primary-color);
+.project-description {
+  background-color: #fff;
 }
 
 .presentation {
@@ -29,6 +29,10 @@ h2 {
   font-weight: 500;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .presentation p {
   font-family: var(--basic-font);
   font-size: 24px;
@@ -36,6 +40,10 @@ h2 {
   line-height: 36px;
   font-style: normal;
   font-weight: 400;
+}
+
+.projects img {
+  max-width: 500px;
 }
 
 .button {
@@ -124,9 +132,18 @@ h2 {
     font-size: 24px;
   }
 
+  .contact-button {
+    font-size: 18px;
+  }
+
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .inquiry-box {
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -164,4 +181,53 @@ li a:active {
 .logo {
   max-width: 250px;
   padding-left: 30px;
+}
+
+.inquiry-box {
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  margin: 30px 60px;
+  text-align: center;
+}
+
+.inquiry-box p {
+  margin: 0;
+}
+
+.contact-button {
+  text-decoration: none;
+  background-color: var(--tertiary-color);
+  color: #fff;
+  border-radius: 4px;
+  padding: 18px 30px;
+  position: relative;
+  top: 30px;
+}
+
+footer {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.email-link {
+  font-size: 24px;
+}
+
+.social-links a {
+  margin: 20px 30px;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--secondary-color);
+  opacity: 70%;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  opacity: 100%;
+  background-color: var(--secondary-color);
+  padding: 8px 12px;
+  border-radius: 50%;
+  color: #fff;
 }
