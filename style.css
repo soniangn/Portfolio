@@ -92,10 +92,12 @@ h2 {
 .content h2 {
   font-size: 24px;
   line-height: 1;
+  font-family: var(--basic-font);
 }
 
 .content h3 {
   font-weight: bold;
+  font-family: var(--basic-font);
 }
 
 @media (max-width: 650px) {
