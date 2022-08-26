@@ -13,12 +13,7 @@
 .presentation {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 80px 30px;
-}
-
-body {
-  padding: 0;
-  margin: 0;
+  padding: 50px 30px;
 }
 
 h1 {
@@ -121,24 +116,28 @@ p {
   font-family: var(--basic-font);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
+  nav li a {
+    padding: 0px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
 
   h1 {
-    font-size: 54px;
+    font-size: 48px;
     line-height: 1;
   }
 
   .presentation {
     text-align: center;
-    padding: 60px 30px;
+    padding: 30px 20px;
   }
 
-  .presentation h2 {
-    font-size: 24px;
+  h2 {
+    font-size: 18px;
   }
 
   .contact-button {
@@ -153,6 +152,10 @@ p {
   .inquiry-box {
     padding: 0;
     margin: 0;
+  }
+
+  .id {
+    max-width: 300px;
   }
 }
 
